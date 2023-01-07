@@ -1,0 +1,7 @@
+name: LioFly
+version: 1.0
+author: PrinceLionn
+main: br.com.liofly.Main
+commands:
+  fly:
+    aliases: [voar]

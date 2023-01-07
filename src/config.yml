@@ -1,0 +1,49 @@
+################################
+#                              #
+#  Desenvolvedor: PrinceLionn  #
+#  Discord: PrinceLionn#4244   #
+#  Versão: 1.0                 #
+#                              #
+################################
+
+##########################################################
+#                                                        #
+#               Permissões e Dependências                #
+#                                                        #
+##########################################################
+
+# Permissões:
+#  - fly.usar (Usar o comando /fly e /voar)
+
+# Dependências:
+#  - TitleAPI (O uso é obrigatorio, caso não use o plugin irá dar erro)
+
+##########################################################
+#                                                        #
+#                       Mensagens                        #
+#                                                        #
+##########################################################
+
+# Mensagem de quando o player ativa o fly:
+fly-habilitar: '&aModo fly habilitado com sucesso.'
+
+# Mensagem de quando o player desativa o fly:
+fly-desabilitar: '&cModo fly desabilitado com sucesso.'
+
+# Mensagem que aparece na tela quando o player ativa o fly:
+title-fly-habilitar:
+  ativar: true
+  title-fly-habilitar: '&a&lVOAR'
+  subtitle-fly-habilitar: '&fHabilitado com sucesso.'
+
+# Mensagem que aparece na tela quando o player desativa o fly:
+title-fly-desabilitar:
+  ativar: true
+  title-fly-desabilitar: '&c&lVOAR'
+  subtitle-fly-desabilitar: '&fDesabilitado com sucesso.'
+
+# Mensagem de quando tentarem usar o comando no console:
+console-não-pode: '&cEsse comando só pode ser executado por um player.'
+
+# Mensagem de quando o player não tem permissão para executar o comando:
+sem-permissão: '&cSem permissão para executar esse comando.'
